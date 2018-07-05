@@ -1,0 +1,32 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "Rastreo-Email",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp develop",
+    "prod": "gulp prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akira669/rastreoEmail.git"
+  },
+  "keywords": [
+    "email",
+    "rastreo"
+  ],
+  "author": "akira669 <akirauchiha0@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akira669/rastreoEmail/issues"
+  },
+  "homepage": "https://github.com/Akira669/rastreoEmail#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-live-server": "0.0.31"
+  }
+}
