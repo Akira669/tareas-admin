@@ -27,8 +27,8 @@
   "devDependencies": {
     "chalk": "^2.4.1",
     "gulp-concat": "^2.6.1",
-    "gulp-live-server": "0.0.31"
+    "gulp-live-server": "0.0.31",
+    "vue": "^2.5.17",
+    "webpack": "^4.17.1"
   }
 }
-
-

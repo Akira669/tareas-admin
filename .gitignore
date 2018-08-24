@@ -1,4 +1,7 @@
 /node_modules
 /public
+/vendor/
+/conf/env.php
 package-lock.json
 .DS_Store
+composer.lock
