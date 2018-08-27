@@ -11,7 +11,7 @@
 
 	$app = new \Slim\App(["settings" => $config]);
 	$container = $app->getContainer();
-	
+
 	$container['db'] = function ($c) {
     
 	    try{
@@ -29,7 +29,8 @@
 	    
 	};
 
-	
+	//print_r($container['db']);
+	//exit();
 
 	$app->post('/addUser', function ($request, $response) {
    
@@ -82,7 +83,7 @@
 
    			try{
 		       $con = $this->db;
-		       $sql = "SELECT * FROM users";<
+		       $sql = "SELECT * FROM users";
 		       $result = null;
 		       foreach ($con->query($sql) as $row) {
 		           $result[] = $row;
